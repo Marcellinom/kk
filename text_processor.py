@@ -17,9 +17,8 @@ def process_text(mess):
     # Now just remove any stopwords
     return [word for word in nopunc.split() if word.lower() not in stopword]
 
-def process_bow(df):
-    all_words = CountVectorizer(analyzer=process_text).fit(df['content'].values.astype('U'))
-    return all_words.transform(df['content'].values.astype('U'))
+def count_vectorize(df):
+    return CountVectorizer(analyzer=process_text).fit(df['content'].values.astype('U'))
 
 def id_bow(bow):
     tfidf_transformer = TfidfTransformer().fit(bow)
