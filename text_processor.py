@@ -20,6 +20,5 @@ def process_text(mess):
 def count_vectorize(df):
     return CountVectorizer(analyzer=process_text).fit(df['content'].values.astype('U'))
 
-def id_bow(bow):
-    tfidf_transformer = TfidfTransformer().fit(bow)
-    return tfidf_transformer.transform(bow)
+def id_transformer(bow):
+    return TfidfTransformer().fit(bow)
