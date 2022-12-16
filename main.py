@@ -1,7 +1,7 @@
 import joblib
 author = input("Enter author: ")
 title = input("Enter title: ")
-print("Paste your the article content. Ctrl-D to save it.") 
+print("Paste your the article content. Ctrl-Z to save it.") 
 contents = [] 
 while True: 
     try: 
