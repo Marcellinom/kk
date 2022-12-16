@@ -1,4 +1,8 @@
-# How to use
+# Unreliable News Detector
+- program ini bakalan menentukan kalo artikel (dalam bahasa inggris dulu ya) yang kamu paste itu reliable atau engga
+- kalo author ato title nya gaada kosongin aja gapapa
+- artikel nya harus isi lah ya
+## How to use
 for instantenouseous use
 ```
 run main.py
@@ -18,7 +22,9 @@ runtime bisa lama, tergantung CPU dan jumlah dataset kalian
 
 # Output
 - New York Times article, [link](https://www.nytimes.com/2022/12/15/world/europe/qatar-european-parliament-bribery.html):
+
 ![image](https://user-images.githubusercontent.com/74979139/208023882-c5cbf3e0-9963-4a12-82bb-9e94a5bf0c4f.png)
 
-- Weird ass article on 10 pages of Google, [link](https://nowtoronto.com/movies/news-features/canadas-drag-race-kimora-amour-on-carnival-canadian-media-and-that-weird-ass-lip-sync):
+- Weird ass article dari halaman 10 Google, [link](https://nowtoronto.com/movies/news-features/canadas-drag-race-kimora-amour-on-carnival-canadian-media-and-that-weird-ass-lip-sync):
+
 ![image](https://user-images.githubusercontent.com/74979139/208024366-5e591382-f96e-4f88-b045-59b6a4797a6c.png)
