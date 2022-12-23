@@ -3,6 +3,11 @@
 - kalo author ato title nya gaada kosongin aja gapapa
 - artikel nya harus isi lah ya
 ## How to use
+prerequisite
+```
+pip install joblib nltk
+python make_model.py
+```
 for instantenouseous use
 ```
 run main.py
